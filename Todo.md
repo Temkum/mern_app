@@ -24,3 +24,5 @@ MongoDB for cloud database.
 - use postman
 - you can set the status on your routes and use json
 - create a separate route folder for routes
+
+- create a controller and add your functionalities or logic
