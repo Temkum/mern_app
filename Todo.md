@@ -34,3 +34,8 @@ These are functions which execute during the response and request cycle
 - setup error handler
 - in order to use the body, you need to modify the middleware
 - use `express-async-handler` as alternative for error handling
+
+## Data base
+
+- download compass to manage db
+- create a file and connect to mangoose
