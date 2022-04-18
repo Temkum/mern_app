@@ -38,4 +38,8 @@ These are functions which execute during the response and request cycle
 ## Data base
 
 - download compass to manage db
-- create a file and connect to mangoose
+- create a file and connect to mongoose
+
+## DB Models
+
+- create models
