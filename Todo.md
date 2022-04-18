@@ -18,3 +18,9 @@ MongoDB for cloud database.
 - Modify package.json file: change the scripts - `"start": "node backend/server.js" & "server": "nodemon backend/server.js"`
 
 - create a `.env` file in the root folder
+
+## Routes
+
+- use postman
+- you can set the status on your routes and use json
+- create a separate route folder for routes
