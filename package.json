@@ -1,0 +1,18 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "Rest api with mern stack",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js"
+  },
+  "author": "Kum Jude Tem",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.3.0"
+  }
+}
