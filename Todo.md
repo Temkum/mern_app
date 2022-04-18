@@ -26,3 +26,11 @@ MongoDB for cloud database.
 - create a separate route folder for routes
 
 - create a controller and add your functionalities or logic
+
+## Middleware
+
+These are functions which execute during the response and request cycle
+
+- setup error handler
+- in order to use the body, you need to modify the middleware
+- use `express-async-handler` as alternative for error handling
