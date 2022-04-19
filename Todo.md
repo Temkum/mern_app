@@ -57,3 +57,5 @@ These are functions which execute during the response and request cycle
 
 - register user
 - login user
+- add jwt secret in env file
+- protect endpoints with jwt token
