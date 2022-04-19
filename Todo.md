@@ -54,3 +54,6 @@ These are functions which execute during the response and request cycle
 - install bcryptjs for password encryption `npm install bcryptjs`
 - and jwt `npm i jsonwebtoken`
 - make methods async since we're working with mongoose
+
+- register user
+- login user
