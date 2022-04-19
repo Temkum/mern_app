@@ -43,3 +43,14 @@ These are functions which execute during the response and request cycle
 ## DB Models
 
 - create models
+
+## Authentication with JWT
+
+- use json web tokens
+- create user model - add schema
+- every goal should be associated with a specific user
+- create user routes
+
+- install bcryptjs for password encryption `npm install bcryptjs`
+- and jwt `npm i jsonwebtoken`
+- make methods async since we're working with mongoose
