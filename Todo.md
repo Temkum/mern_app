@@ -60,3 +60,8 @@ These are functions which execute during the response and request cycle
 - add jwt secret in env file
 - protect endpoints with jwt token
 - protect routes
+
+## Frontend authentication
+
+- install react `npx create-react-app frontend --template redux`
+- or install redux
