@@ -64,4 +64,20 @@ These are functions which execute during the response and request cycle
 ## Frontend authentication
 
 - install react `npx create-react-app frontend --template redux`
-- or install redux
+- or install redux `npm install @reduxjs/toolkit`
+
+- create components
+- add routes `npm i react-router-dom`
+- install react-icons `npm i react-icons`
+
+> use concurrently to run 2 packages at a time `npm i -D concurrently`
+
+- create a folder in features/auth and a file for our reducers
+
+- use a thunk function
+
+- install axios and react toastify - which helps display errors and success alerts as toasts `npm i axios react-toastify`
+
+- the service func is for making https request and setting data in local storage
+
+- add a proxy in frontend package.json
