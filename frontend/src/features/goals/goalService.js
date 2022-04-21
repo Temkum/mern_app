@@ -12,11 +12,6 @@ const createGoal = async (goalData, token) => {
   return response.data;
 };
 
-// export
-const goalService = {
-  createGoal,
-};
-
 // Get user goals
 const getGoals = async (token) => {
   const config = { headers: { Authorization: `Bearer ${token}` } };

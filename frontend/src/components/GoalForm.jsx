@@ -17,7 +17,7 @@ function GoalForm() {
 
   return (
     <section>
-      <form className="form">
+      <form className="form" onSubmit={onSubmit}>
         <div className="form-group">
           <label htmlFor="text"></label>
           <input type="text" name="text" id='text' value={text} onChange={(e)=> setText(e.target.value)} />
