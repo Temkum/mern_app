@@ -26,10 +26,20 @@ const getGoals = async (token) => {
   return response.data;
 };
 
+// Delete user goals
+const deleteGoal = async (goalId, token) => {
+  const config = { headers: { Authorization: `Bearer ${token}` } };
+
+  const response = await axios.delete(API_URL + goalId, config);
+
+  return response.data;
+};
+
 // export
 const goalService = {
   createGoal,
   getGoals,
+  deleteGoal,
 };
 
 export default goalService;
